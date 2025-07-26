@@ -10,7 +10,7 @@ st.set_page_config(page_title="Resumo por Cliente", layout="wide")
 st.title("📋 Resumo por Cliente")
 
 # Leitura da planilha
-df_total = pd.read_excel("C:\\Users\\carol\\OneDrive\\Área de Trabalho\\Dashboard_Petshop\\Database\\Recebiveis_Petshop.xlsx")
+df_total = pd.read_excel("Dashboard_Petshop/Database/Recebiveis_Petshop.xlsx")
 
 # Seleciona colunas relevantes
 df_recebiveis = df_total[["Nome do Cliente", "Data de compra", "Valor"]]
