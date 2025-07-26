@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout="wide")
 
-df_total = pd.read_excel("C:\\Users\\carol\\OneDrive\\Área de Trabalho\\Dashboard_Petshop\\Database\\Recebiveis_Petshop.xlsx")
+df_total = pd.read_excel("Dashboard_Petshop/Database/Recebiveis_Petshop.xlsx")
 
 df_recebiveis = df_total[["Nome do Cliente", "Data de compra", "Vencimento", "Valor"]]
 
