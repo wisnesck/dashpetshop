@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout="wide")
 
-df_produtos = pd.read_excel("C:\\Users\\carol\\OneDrive\\Área de Trabalho\\Dashboard_Petshop\\Database\\Produtos.xlsx")
+df_produtos = pd.read_excel("Dashboard_Petshop/Database/Produtos.xlsx")
 
 produtos = df_produtos[["nome" , "categoria", "estoque", "preco unitario", "quantidade_vendida"]]
 
